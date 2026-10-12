@@ -1,0 +1,65 @@
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env/
+
+# Environment variable files (secrets)
+.env
+.env.*
+*.env
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# MyPy
+.mypy_cache/
+
+# Ruff / linter caches
+.ruff_cache/
+
+# Hugging Face model cache (large binary files, downloaded on demand)
+# Uncomment the next line if you want to exclude locally cached models:
+# .cache/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+
+# Large data files (add specific filenames if needed)
+*.bin
+*.pt
+*.ckpt
